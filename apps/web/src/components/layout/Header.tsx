@@ -115,6 +115,13 @@ const handleShare = async () => {
                 {link.label}
               </Link>
             ))}
+            <button
+  className="header-nav-link"
+  onClick={handleShare}
+  aria-label="Share website"
+>
+  <i className="fa-solid fa-share-nodes"></i>
+</button>
           </nav>
 
           {/* ── RIGHT SIDE ── */}
